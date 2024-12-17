@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",                // Specify ECMAScript target version
+      "module": "commonjs",           // Specify module code generation
+      "strict": true,                 // Enable all strict type-checking options
+      "esModuleInterop": true,        // Allow default imports from CommonJS modules
+      "allowJs": true,                // Allow JavaScript files
+      "checkJs": false,               // Disable type checking for JavaScript files
+      "outDir": "./dist",             // Redirect output structure to the dist folder
+      "rootDir": "./src",             // Specify the root folder of the project
+      "moduleResolution": "node",    // Use Node.js module resolution strategy
+      "resolveJsonModule": true,      // Allow importing .json files
+      "jsx": "react"                  // Specify JSX code generation
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.test.ts"
+    ]
+  }
+  
